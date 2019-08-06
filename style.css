@@ -1,7 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
     font-family: sans-serif;
+    border: red 1px solid;
+}
+.flexbox-top {
+    margin: 0 100px;
 }
 .flexbox-top a{
     text-decoration: none;
@@ -15,34 +17,66 @@
 }
 .nawigacja {
     display: flex;
-    align-items: center;
+    
     }
-.nawigacja div {
-    flex:1;
-    justify-content: center;
+.logo {
+    flex: 1;
 }
 .logo img{
-    width: 125px;
+    width: 25%;
+}
+.menu {
+    flex: 3;
+}
+.menu a {
+    font-family: Arial;
+    font-size: 100%;
+    font-weight: bolder;
+    color: black;
+    
     
 }
-
 .menu ul{
-    margin-top: 18px;
     display: flex;
+    flex-direction: row;
     list-style: none;
 }
 
 .menu ul li {
-    flex:1;
+    flex: 1;
     text-align: center;
+    
 }
 
 .kontakt a {
     color: gray;
 }
 
-
-
 .banner img {
     width: 100%
+}
+.box2 {
+    background: url(pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.box2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 100px;
+}
+.header-1 {
+    flex: 1;
+    font-size: 20px;
+}
+.header-1 ins {
+    text-decoration: none;
+    color: blue;
+}
+
+.header-text {
+    flex:1;
+    font-size: 17px;
+    color: grey;
 }
