@@ -1,8 +1,48 @@
-.stopka {
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.flexbox-top a{
+    text-decoration: none;
+}
+.kontakt {
+    font-size: 15px;
     display: flex;
-    float: top;
+    padding: 20px;
+    justify-content: flex-end;
+    
+}
+.nawigacja {
+    display: flex;
+    align-items: center;
+    }
+.nawigacja div {
+    flex:1;
+    justify-content: center;
+}
+.logo img{
+    width: 125px;
+    
 }
 
-.malelogo {
-    width: 2ex;
+.menu ul{
+    margin-top: 18px;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    flex:1;
+    text-align: center;
+}
+
+.kontakt a {
+    color: gray;
+}
+
+
+
+.banner img {
+    width: 100%
 }
