@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Arimo';
-    
     margin: 0;
     padding: 0;
 }
@@ -133,53 +132,167 @@
     background-blend-mode: hard-light;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    
 
 }
 
 .kot {
     flex: 1;
+    justify-content: center;
     text-align: center;
     margin: 15% 20%;
-    
-    
 }
 .kot h1 {
     color: white;
 }
 
 
-.button1{
+.button1 {
+    display: flex;
     background-color: orange;
-    width: 250px;
-    height: 50px;
+    height: 100px;
     text-decoration: none;
-    text-align: center; 
-    
 }
 
-.button1 li {
-    flex: 1;
-    justify-items: center;
-    flex-direction: column;
+.button1 ul{
     list-style: none;
-    padding: 10px;
 }
+
 .button1 a {
-    flex: 1;
     text-decoration: none;
-    font-size: 20px;
     color: white;
+    font-size: 30px;
+}
+.box5 {
+    display: flex;
+    flex-direction: column;
+    background: url(oleg-ivanov-cjLd-YELrYQ-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(128, 128, 128, 0.50);
+   
+}
+
+.head {
+    display: flex;
+    margin: 100px 300px;
+    justify-content: center;
+}
+.head ins{
+    text-decoration: none;
+    font-size: 27px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.bottom {
+    display: flex;
+    margin: 10px 100px;
+    justify-content: center;
+    color: white;
+}
+.bottom ul {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.bottom h2 {
+    font-size: 23px;
+}
+
+.bottom li {
+    list-style: none;
+    flex: 1;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: overlay;
+    background: darkgrey;
+    background: url(warte.png);
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.75);
+}
+
+.box7 ul li {
+    color: white;
+    list-style: none;
+    line-height: 36px;
+}
+.head1 {
+    display: flex;
+    margin: 30px 200px;
+    justify-content: center;
+}
+.head1 h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.bottom1 {
+    display: flex;
+    margin: 10px 100px;
     justify-content: center;
 }
 
+.bottom1 img {
+        border-radius: 50%;
+        width: 200px;
+        padding: 20px;
+}
 
+.bottom1 ul {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
 
+.box8 ul li {
+    color: white;
+    list-style: none;
+    line-height: 36px;
+}
+.head2 {
+    display: flex;
+    margin: 100px 200px;
+    justify-content: center;
+}
+.head2 h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
 
+.bottom2 {
+    display: flex;
+    margin: 100px 100px;
+    justify-content: center;
+}
 
+.bottom2 img {
+        border-radius: 50%;
+        width: 200px;
+        padding: 20px;
+}
+
+.bottom2 ul {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
 
 
 .footer1 {
     background: rgb(54, 54, 54);
+    padding: 10px;
 }
 
 .footer1 a{
@@ -195,12 +308,14 @@
     padding: 20px;
 }
 
+
 .navifoot ul{
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
     margin: 0 200px;
+    
 }
 
 .pasek {
@@ -216,6 +331,7 @@
     text-decoration: none;
     margin: 0 100px;
     line-height: 150%;
+    padding: 20px;
 }
 
 .artykuly div {
