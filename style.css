@@ -37,13 +37,13 @@
 
 .menu {
     flex: 1;
-    margin: 0;
+    margin: 0 100px;
 }
 .menu a {
     font-size: 100%;
     font-weight: bolder;
     color: black;
-    text-decoration: none;
+    text-decoration: none;  
     
 }
 .menu ul{
@@ -51,11 +51,10 @@
     flex-direction: row;
 }
 
-.menu ul li {
-    flex: 1;
-    text-align: center;
+.menu li {
+    flex:1 ;
     list-style: none;
-    
+    text-align: right;
 }
 .logo {
     flex: 1;
@@ -74,11 +73,14 @@
     flex: 1;
     color: white;
     margin: 0 100px;
+    text-align: center;
+    
 }
 .banner-text {
     display: flex;
     flex: 1;
     height: 100vh;
+    margin: 25% 10%;
 }
 
 .box2 {
@@ -163,6 +165,55 @@
     text-align: center;
 }
 
+.box4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.type1 {
+    flex:1;
+    text-align: center;
+    margin: 0 20%;
+}
+
+.type1 ul {
+    list-style: none;
+    padding: 100px;
+}
+
+.type2 {
+    display: flex;
+    margin: 40px 40px;
+    line-height: 30px;
+    color: rgb(161, 161, 161);
+
+}
+
+.type2 img {
+    width: 15%;
+}
+
+.type2 ins{
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+.type2 ul {
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    margin: 0 100px;
+}
+
+.pasek1 {
+    display: flex;
+    background-color: orange;
+    margin: 0 45%;
+    width: 50px;
+    height: 1px;
+}
+
+
 
 .box5 {
     display: flex;
@@ -219,14 +270,58 @@
 
 .lewy11 {
     flex: 1;
+    background: url(taisiia-shestopal-y1E3RUUbbgs-unsplash.jpg);
+    background-color: rgb(71, 166, 255);
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+
+.lewy11 a{
+    color: white;
+    font-size: 20px;
+}
+
+.lewy11 ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+    line-height: 30px;
+}
+
+.lev {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 100px;
 }
 
 .prawy11 {
     flex: 1;
+    color: rgb(9, 93, 190);
 }
 
+.prawy11 ul{
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    list-style: none;
+}
 
+.video2 {
+    padding: 10px;
+}
 
+.prawy11 a {
+    color: rgb(9, 93, 190);
+    font-size: 20px;
+}
+
+.prawy11 img{
+    width: 25%;
+}
 
 .box7 {
     display: flex;
@@ -305,7 +400,6 @@
     text-align: center;
     font-size: 25px;
 }
-
 
 .footer1 {
     background: rgb(54, 54, 54);
