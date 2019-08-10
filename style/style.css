@@ -220,11 +220,9 @@
     text-decoration: none;
     border-bottom: 1px orange solid;
     border-bottom-width: 1px;
+    padding: 8px;
+    
 }
-
-
-
-
 
 .box5 {
     display: flex;
