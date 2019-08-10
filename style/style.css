@@ -60,13 +60,17 @@
     flex: 1;
 }
 .logo img{
-    height: 20vh;
+    height: 125px;
 }
 
 .banner {
     display: flex;
-    background: url(arnaud-papa-nuW1WqqDzsU-unsplash.jpg);
+    background: url(../img/arnaud-papa-nuW1WqqDzsU-unsplash.jpg);
     background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
 }
 
 .banner h1 {
@@ -76,16 +80,10 @@
     text-align: center;
     
 }
-.banner-text {
-    display: flex;
-    flex: 1;
-    height: 100vh;
-    margin: 25% 10%;
-}
 
 .box2 {
     display: flex;
-    background: url(pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg);
+    background: url(../img/pawel-czerwinski-Ku6Pw0HYH3M-unsplash.jpg);
     background-size: cover;
     height: 100%;
     background-attachment: fixed;
@@ -121,7 +119,7 @@
 
 .box3 {
     display: flex;
-    background: url(vadim-sadovski-rhg0luJLuXc-unsplash.jpg);
+    background: url(../img/vadim-sadovski-rhg0luJLuXc-unsplash.jpg);
     background-size: cover;
     background-color: rgb(35, 185, 255);
     background-blend-mode: hard-light;
@@ -163,65 +161,79 @@
     justify-content: center;    
     width: 300px;
     text-align: center;
+    all:none;
+    border: none;
 }
+
+.button1 button:hover {
+    color: black;
+    background-color: rgb(255, 195, 116);
+    cursor:pointer;
+}
+
 
 .box4 {
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 }
 
 .type1 {
-    flex:1;
-    text-align: center;
-    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+
 
 .type1 ul {
     list-style: none;
-    padding: 100px;
+    padding: 50px;
 }
 
 .type2 {
     display: flex;
-    margin: 40px 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     line-height: 30px;
     color: rgb(161, 161, 161);
+    text-align: center;
+    margin: 50px 100px;
 
 }
 
-.type2 img {
-    width: 15%;
+.imgdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv img{
+    width: 20%;
 }
 
 .type2 ins{
     color: rgb(0, 132, 255);
     text-decoration: none;
+    border-bottom: 1px orange solid;
+    border-bottom-width: 1px;
 }
 
-.type2 ul {
-    list-style: none;
-    text-align: center;
-    width: 70%;
-    margin: 0 100px;
-}
 
-.pasek1 {
-    display: flex;
-    background-color: orange;
-    margin: 0 45%;
-    width: 50px;
-    height: 1px;
-}
 
 
 
 .box5 {
     display: flex;
     flex-direction: column;
-    background: url(oleg-ivanov-cjLd-YELrYQ-unsplash.jpg);
+    background: url(../img/oleg-ivanov-cjLd-YELrYQ-unsplash.jpg);
     background-size: cover;
     background-blend-mode: hue;
     background-color: rgba(128, 128, 128, 0.50);
+
    
 }
 
@@ -266,53 +278,61 @@
 .box6 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.box6 a {
+    padding: 10px;
 }
 
 .lewy11 {
-    flex: 1;
-    background: url(taisiia-shestopal-y1E3RUUbbgs-unsplash.jpg);
+    background: url(../img/taisiia-shestopal-y1E3RUUbbgs-unsplash.jpg);
     background-color: rgb(71, 166, 255);
     background-blend-mode: overlay;
     background-size: cover;
     color: white;
+    flex-direction: column;
+    display: flex;
+
+    
 }
 
-.lewy11 a{
+.test {
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.lewy11 a {
     color: white;
     font-size: 20px;
+    
 }
 
-.lewy11 ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 100px;
-    line-height: 30px;
-}
+
 
 .lev {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0 100px;
+    flex: 1;
+   display: flex;
+   flex-direction: column; 
+   align-items: flex-start;
+   align-self: flex-start;
+   padding: 20px;
 }
 
 .prawy11 {
-    flex: 1;
     color: rgb(9, 93, 190);
-}
-
-.prawy11 ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
     text-align: center;
-    align-content: center;
-    margin-top: 50px;
-    list-style: none;
 }
 
-.video2 {
-    padding: 10px;
-}
 
 .prawy11 a {
     color: rgb(9, 93, 190);
@@ -320,7 +340,8 @@
 }
 
 .prawy11 img{
-    width: 25%;
+    width: auto;
+    height: 125px;
 }
 
 .box7 {
@@ -328,7 +349,7 @@
     flex-direction: column;
     background-blend-mode: overlay;
     background: darkgrey;
-    background: url(warte.png);
+    background: url(../img/warte.png);
     background-size: cover;
     background-color: rgba(128, 128, 128, 0.75);
 }
@@ -491,12 +512,4 @@
     width: 24px;
     flex-direction: row;
 }
-
-
-
-
-
-
-
-
 
